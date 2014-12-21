@@ -1,0 +1,185 @@
+
+.buele-thumb {
+  /*position:absolute;
+  top:30px;
+  right:30px;*/
+  width: 150px;
+  height: 150px;
+  margin: 20px 0px;
+/*  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;*/
+  background: url(../images/buelethumb.png) no-repeat;
+  }
+
+.links{
+   margin: 20px 0px;
+}
+
+
+  #typed-cursor {
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    left: 0;
+    top:0;
+    position: relative;
+    text-align: left;
+    color: #2E3D48;
+    margin: 160px 0px 0px 20px;
+
+  }
+   
+  
+
+
+
+#typed-cursor.blinking {
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from,to {
+  color: transparent;
+}
+ 50% {
+    color: white;
+ }
+
+}
+
+@-moz-keyframes blink {
+  from,to {
+  color: transparent;
+}
+ 50% {
+   color: white;
+ }
+
+}
+
+@-webkit-keyframes "blink" {
+  from,to {
+  color: transparent;
+}
+ 50% {
+   color: white;
+ }
+
+}
+
+@-ms-keyframes "blink" {
+  from,to {
+  color: transparent;
+}
+ 50% {
+   color: white;
+ }
+
+}
+
+@-o-keyframes "blink" {
+  from,to {
+  color: transparent;
+}
+ 50% {
+   color: white;
+ }
+}
+
+.project-title{
+  margin-top:40px;
+}
+
+@font-face {
+  font-family: "open";
+  src: url(./fonts/opensanslight.ttf) format("truetype");
+  /*src: url(./fonts/fire2.otf) format("truetype");*/
+}
+body { font-family: "open", sans-serif }
+
+.navbar-fixed-top {
+  background-color: white;
+}
+
+.view{
+  margin-top: 41px;
+}
+
+.link-box{
+  margin-top:50px;
+}
+
+/*   test animation */
+
+.view.ng-enter,
+.view.ng-leave,
+.view.ng-move {
+  -webkit-transition: 0.8s linear all;
+  -moz-transition: 0.8s linear all;
+  -o-transition: 0.8s linear all;
+  transition: 0.80s linear all;
+}
+
+.view.ng-enter,
+.view.ng-move {
+  opacity: 0;
+  /*height: 0;*/
+  /*display: none;*/
+  top:-100%;
+  overflow: hidden;
+}
+
+.view.ng-move.ng-move-active,
+.view.ng-enter.ng-enter-active {
+  opacity: 1;
+  display: block;
+  top:0%;
+  /*height: 100%;*/
+
+}
+
+.view.ng-leave {
+  opacity: 0;
+  /*display: block;*/
+  top:-100%;
+  overflow: hidden;
+}
+
+.view.ng-leave.ng-leave-active {
+  opacity: 0;
+  /*height: 0;*/
+  display: none;
+  /*top:-100%;*/;
+  /*padding-top: 0;
+  padding-bottom: 0;*/
+}
+#home{
+  margin-top: 100px;
+}
+
+.experence-box{
+  margin-top: 55px;
+}
+
+.project-box{
+  margin-top: 55px;
+}
+
+.project-responsibilities{
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+body { font-size: 1.8em; }
+h1  { font-size: 2.8em; }
+h2  { font-size: 2.5em; }
+h3  { font-size: 2.3em; }
+h4  { font-size: 2em; }
+h5  { font-size: 1.8em; }
+h6  { font-size: 1.5em; }
+
