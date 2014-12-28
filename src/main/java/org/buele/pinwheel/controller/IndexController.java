@@ -7,9 +7,9 @@ import org.springframework.ui.ModelMap;
 
  
 @Controller
-@RequestMapping("/index.html")
+//@RequestMapping("/index.html")
 public class IndexController{
-	@RequestMapping(method=RequestMethod.GET)
+	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String hello(ModelMap model) {
 		model.addAttribute("message", "Spring 3 MVC Hello World");
 		return "index";
